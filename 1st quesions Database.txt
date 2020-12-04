@@ -1,0 +1,45 @@
+create database productlogin;
+
+ use productlogin;
+
+create table pro(
+
+	pro_id int,
+  
+  pro_name varchar(20),
+   
+ pro_unit varchar(20)
+ 
+);
+
+
+select * from pro;
+
+
+insert into pro(pro_id,pro_name,pro_unit)
+
+values('1','valmik','dom');
+
+
+
+insert into pro(pro_id,pro_name,pro_unit)
+
+values('2','swapnil','kalyan');
+
+
+
+insert into pro(pro_id,pro_name,pro_unit)
+
+values('3','prashant','ghansoli');
+
+
+
+insert into pro(pro_id,pro_name,pro_unit)
+
+values('4','raj','padle');
+
+pro_id  pro_name  pro_unit
+1	valmik	  dom
+2	swapnil	  kalyan
+3	prashant  Ghansoli
+4	Raj	  Padle
